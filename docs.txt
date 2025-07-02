@@ -31,7 +31,10 @@ git add .
 
 git commit -m "added"
 
+git branch -M main
+
 git remote add origin https://github.com/<user-name>.git
+git remote add origin https://github.com/Pawan-Sharma-Jaipur/mysummerd.git
 
 git push -u origin main
 
