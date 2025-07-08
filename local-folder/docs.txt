@@ -1,0 +1,46 @@
+step-1  install uv in your system
+
+step-2 create a new folder and open vs code in it.
+
+step-3  open the terminal and write  'uv init mysummerd'
+
+step-4  close the vs code and open vs code from the mysummerd folder.
+
+step-5  open the terminal and write 
+uv venv
+
+
+step-6  .venv\Scripts\activate
+
+step-7  we create a 'requirements.txt'  file in which we will store all the packages which 
+is important for running the application.
+Now open the terminal and write
+
+uv add -r requirements.txt
+
+
+step-8  load yyour csv data
+
+step-9  in main.py file will write  all the logics
+
+step 10 Upload all the data on github.
+
+git init 
+
+git add .
+
+git commit -m "added"
+
+git branch -M main
+
+git remote add origin https://github.com/<user-name>.git
+git remote add origin https://github.com/Pawan-Sharma-Jaipur/mysummerd.git
+
+git push -u origin main
+
+
+
+step-11  open the aws , 
+
+IAM  --->  User ---> New User ---> attach policy(s3fullaccess , administratoraccess)
+----> Access Key , Access ID
